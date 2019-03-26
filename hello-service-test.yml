@@ -1,0 +1,10 @@
+test:
+  content: this is spring cloud config 
+  
+server: 
+  port:  6002
+
+eureka: 
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:6001/eureka/
