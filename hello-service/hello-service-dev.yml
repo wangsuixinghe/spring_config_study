@@ -1,5 +1,5 @@
 test:
-  content: this is spring cloud config from github resource
+  content: this is spring cloud config from github resource edit
   
 server: 
   port:  6002
