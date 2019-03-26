@@ -24,9 +24,9 @@ spring:
     password: P@ssw0rd
 
 management: 
-  endpoints: 
-    web: 
-      exposure: 
-        include: refresh
+#  endpoints: 
+#    web: 
+#      exposure: 
+#        include: refresh
   security:
    enabled: false
