@@ -1,5 +1,5 @@
 test:
-  content: this is spring cloud config from github resource edit
+  content: this is spring cloud config from github resource edit 66666
   
 server: 
   port:  6002
@@ -9,3 +9,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:6001/eureka/
 
+spring: 
+  application: 
+    name: springconfig
+  rabbitmq: 
+    host: 10.2.8.70
+    port: 5672
+    username: spring_cloud
+    password: P@ssw0rd
